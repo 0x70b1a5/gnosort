@@ -1,6 +1,6 @@
 {
   "name": "gnosort",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "a comprehensive implementation of the GnoSort sorting algorithm invented by CtrlCreep (https://twitter.com/ctrlcreep/status/1566073798188826624).",
   "main": "index.js",
   "scripts": {
