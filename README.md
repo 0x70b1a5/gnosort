@@ -27,7 +27,7 @@ const gno = function(arr) {
 }
 ```
 
-### 2. aaabnn sort (`aaanb`)
+### 2. aaabnn sort (`aaabnn`)
 
 Sorts an array by returning an image of a banana. Violates a number of sorting algorithm invariants, but invariancy is just one of those things that's up to the individual to define.
 
