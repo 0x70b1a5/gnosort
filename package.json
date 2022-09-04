@@ -1,0 +1,27 @@
+{
+  "name": "gnosort",
+  "version": "1.0.1",
+  "description": "a comprehensive implementation of the GnoSort sorting algorithm invented by CtrlCreep (https://twitter.com/ctrlcreep/status/1566073798188826624).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0x70b1a5/gnosort.git"
+  },
+  "keywords": [
+    "sorting",
+    "algorithm",
+    "gnosort",
+    "sort",
+    "array",
+    "list"
+  ],
+  "author": "akira <lovecrypt@firemail.cc> (linktr.ee/lovecrypt)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/0x70b1a5/gnosort/issues"
+  },
+  "homepage": "https://github.com/0x70b1a5/gnosort#readme"
+}
