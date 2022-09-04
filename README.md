@@ -47,7 +47,7 @@ const gnosorted = gno(unsorted)
 
 console.log(gnosorted) // => [10, 85, 29, 9]
 
-const anbsorted = aaabnn(unsorted)
+const abnsorted = aaabnn(unsorted)
 
-console.log(anbsorted) // => data:image/png;base64,iVBORw0KGgoAAAA...
+console.log(abnsorted) // => data:image/png;base64,iVBORw0KGgoAAAA...
 ```
