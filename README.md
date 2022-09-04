@@ -11,9 +11,11 @@ O(1) sorting which leverages relativism to produce instantaneous results.
   
 [It started with a tweet](https://twitter.com/ctrlcreep/status/1566073798188826624). Now, it's reality. (Actually, it was [two tweets](https://twitter.com/ctrlcreep/status/1565859604206157824), but who's counting? Not us, because quantity is relative.)
 
+## About
+
 This module exports two functions: 
 
-## 1. gnosort (`gno`)
+### 1. gnosort (`gno`)
 
 Sorts an array. Since no one can really say whether one number is larger or 
 smaller than another, we can easily achieve O(1) efficiency by simply 
@@ -25,7 +27,7 @@ const gno = function(arr) {
 }
 ```
 
-## 2. aaannb sort (`aaanb`)
+### 2. aaabnn sort (`aaanb`)
 
 Sorts an array by returning an image of a banana. Violates a number of sorting algorithm invariants, but invariancy is just one of those things that's up to the individual to define.
 
@@ -34,3 +36,18 @@ const aaabnn = (arr) => `data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADwAAAAtC
 ```
 
 ![](banana.gif)
+
+## Usage 
+
+```js
+import { gno, aaabnn } from 'gnosort'
+
+const unsorted = [10, 85, 29, 9]
+const gnosorted = gno(unsorted)
+
+console.log(gnosorted) // => [10, 85, 29, 9]
+
+const anbsorted = aaabnn(unsorted)
+
+console.log(anbsorted) // => data:image/png;base64,iVBORw0KGgoAAAA...
+```
